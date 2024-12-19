@@ -1,4 +1,5 @@
 # DEPLOY REDIS CLUSTER
+*Test*
 
 ```
 # helm install redis -f values.yaml oci://registry-1.docker.io/bitnamicharts/redis -n <NAMESPACE>
