@@ -1,0 +1,27 @@
+global:
+  defaultStorageClass: "nfs-client"
+  storageClass: "nfs-client"
+  redis:
+    password: "xxxxxx"
+rbac:
+  create: true
+serviceAccount:
+  create: true
+replica:
+  replicaCount: 3
+  resourcesPreset: "medium"
+  automountServiceAccountToken: true
+  disableCommands: []
+  persistence:
+    enabled: true
+    size: 2Gi
+    path: /data
+    accessModes:
+      - ReadWriteOnce
+sentinel:
+  enabled: true
+  masterService:
+     enabled: true
+     type: "ClusterIP"
+master:
+  disableCommands: []
