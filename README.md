@@ -1,4 +1,4 @@
-# DEPLOY REDIS CLUSTER
+# DEPLOY REDIS CLUSTER - SINGLE WRITE POINT (SINGLE MASTER)
 *This deployment is just a quick start of a Redis cluster using Bitnami helm chart. If you want to customize more options. Please refer to this document https://github.com/bitnami/charts/tree/main/bitnami/redis*
 
 ```
