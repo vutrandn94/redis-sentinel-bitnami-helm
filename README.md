@@ -1,5 +1,5 @@
 # DEPLOY REDIS CLUSTER
-*Test*
+*This deployment is just a quick start of a Redis cluster using Bitnami helm chart. If you want to customize more options. Please refer to this document https://github.com/bitnami/charts/tree/main/bitnami/redis*
 
 ```
 # helm install redis -f values.yaml oci://registry-1.docker.io/bitnamicharts/redis -n <NAMESPACE>
